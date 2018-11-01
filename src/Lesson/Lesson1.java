@@ -3,9 +3,8 @@ package Lesson;
 import java.util.Scanner;
 
 public class Lesson1 {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-
 
         System.out.print("Enter your name : ");
         String name = sc.nextLine();
@@ -19,22 +18,8 @@ public class Lesson1 {
 
         System.out.print("Enter your hobby : ");
         String hobby = sc.nextLine();
-        //sc.nextLine();
         System.out.print(" Name: " + name + "\n " + "City: " +  city + "\n "
                  + "Age: " + age + "\n " + "Hobby: " + hobby  );
-
-
-
-
-       /* if (age < 18){
-            System.out.println(name + " You're too young");
-        }else if (age > 18 && age < 50) {
-            System.out.println("You're younger");
-        }else {
-            System.out.println("You're old");
-        }*/
-
-
 
     }
 }
