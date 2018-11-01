@@ -18,6 +18,7 @@ public class Lesson1 {
 
         System.out.print("Enter your hobby : ");
         String hobby = sc.nextLine();
+
         System.out.print(" Name: " + name + "\n " + "City: " +  city + "\n "
                  + "Age: " + age + "\n " + "Hobby: " + hobby  );
 
